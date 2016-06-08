@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500);
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: darkturquoise;
+  font-size: 16px;
+  display: block;
+  font-family: 'Ubuntu', sans-serif; 
+  /*opacity: 0.8;*/
+}
+
+.center {
+  text-align: center;
+}
+
+#videoPlayer {
+  width: 533px;
+  height: 300;
+  /*border: 2px solid black;*/
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px black;
+  margin-bottom: 10px;
+  background-color: black;
+}
+
+.vidPlay {
+  border-radius: 5px;
+  border: 2px solid palevioletred;
+  box-shadow: 0px 0px 20px black;
+  background-color: black;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+canvas.create {
+  width: 400px;
+  height: 400px;
+  /*border: 2px solid black;*/
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px black;
+  padding-bottom: 10px;
+  background-color: black;
+  text-align: center;
+}
+
+.buttons {
+  border-radius: 5px;
+  min-width: 90px;
+  min-height: 30px;
+  font-size: 1.15em;
+  font-weight: lighter;
+}
+
+.playList img{
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px black;
+}
+
+div.playList {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px;
+  /*text-align: center;*/
+}
+
+.playList figure {
+  flex: 1;
+  justify-content: space-around;
+  align-content: flex-start;
+  /*text-align: center;*/
+  flex-wrap: wrap;
+}
+
+.playList figure figcaption {
+  font-weight: bold;
+}
+
+section {
+  display: block;
+  padding-bottom: 20px;
+}
+
+section div {
+  padding-bottom: 15px;
+}
+
+section:nth-child(n) {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button:hover {
+  cursor: pointer;
+}

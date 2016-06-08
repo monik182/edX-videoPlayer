@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Monik's Video Player</title>
+    <link rel="stylesheet" href="css/videoplayer.css">
+  </head>
+  <body>
+    <h1 class="center">Monik's Video Player</h1>
+
+    <div class="center">
+      <video id="videoPlayer" src="" >
+        Sorry, the video format is not supported by your browser.
+      </video>
+      <br />
+      <h3 id="videoTitle"></h3>
+    </div>
+
+    <div class="center">
+      <button class="buttons" id="prev">Previous</button>
+      <button class="buttons" id="play">Play</button>
+      <button class="buttons" id="pause">Pause</button>
+      <button class="buttons" id="stop">Stop</button>
+      <button class="buttons" id="next">Next</button>
+    </div>
+
+    <div class="center playList">
+      <figure>
+        <a href="#videoPlayer"><img id="btd" src="img/btdb182.jpg" alt="Bored to Death"></a>
+        <figcaption>Bored to Death</figcaption>
+      </figure>
+      <figure>
+        <a href="#videoPlayer"><img id="alw" src="img/alwaysb182.jpg" alt="Always"></a>
+        <figcaption>Always</figcaption>
+      </figure>
+      <figure>
+        <a href="#videoPlayer"><img id="ifs" src="img/ifeelsobcr.JPG" alt="I Feel So"></a>
+        <figcaption>I Feel So</figcaption>
+      </figure>            
+      <figure>
+        <a href="#videoPlayer"><img id="ti" src="img/bcr.jpg" alt="There Is"></a>
+        <figcaption>There Is</figcaption>
+      </figure>     
+      <figure>
+        <a href="#videoPlayer"><img id="nn" src="img/notnowb182.jpg" alt="Not Now"></a>
+        <figcaption>Not Now</figcaption>
+      </figure> 
+    </div>
+    
+    <section>
+      <h2>Take a Selfie!</h2>
+      <video class="center vidPlay" id="webcam"> <canvas id="selfie"></canvas> </video>
+      <div>
+        <button id="wcstart" class="buttons">Start</button>
+        <button id="wcstop" class="buttons">Stop</button>
+        <button id="download" class="buttons"><a id="aa" download="myselfie.png">Download a Selfie</a></button>
+      </div>
+      <!--<canvas id="selfie"></canvas>-->
+    </section>
+    
+    <script src="js/videoplayer.js"></script>
+  </body>
+</html>
